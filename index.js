@@ -9,11 +9,11 @@ const courses1HourPlus = 0; // Amount of courses 1 hour+ (assume 3 hours for cal
 
 // Feel free to add code here for the calculation
 
-const totalHoursOfAllCourses = 0; // Amount of time to view all courses (measured in HOURS)
+const totalHoursOfAllCourses = 0; // Amount of time to view all courses (measured in HOURS). DO NOT HARDCODE!
 
 // Only change code ABOVE this line!
 
-const totalDaysOfAllCourses = totalHoursOfAllCourses / 24;
+const totalDaysOfAllCourses = Math.floor(totalHoursOfAllCourses / 24);
 console.log(`\nName: ${myName}`);
 console.log(`Mentor name: ${mentorName}`);
 
