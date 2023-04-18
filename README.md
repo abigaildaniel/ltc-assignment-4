@@ -15,7 +15,7 @@ This is a Node.js script that tells you how many hours (or days) it would take t
 Once your code is ready, you'll want to create your own GitHub repository for it.
 
 1. Make sure you are logged into your GitHub account.
-2. Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (basically a clone) of this repository by following the "Forking a repository" steps in [this guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo?tool=webui#forking-a-repository).
+2. Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (basically a clone) of this repository by following the "Forking a repository" steps in [this guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo?tool=webui#forking-a-repository) and using the "Fork" button at the top of this page.
 3. On your forked repository, open the index.js file and click the "edit" icon (looks like a pencil).
 4. Replace this with your working code from the Online Node.js Compiler.
 5. Send me the URL for your repository in Slack so I can verify it! :tada:
