@@ -1,15 +1,19 @@
-const myName = 'insert name here';
-const mentorName = 'insert mentor here';
+const myName = 'Abigail Daniel';
+const mentorName = 'Kyra Ratusnik';
 
-const totalCourses = 0; // Total amount of courses in the OpenSesame catalog
-const courses10Min = 0; // Amount of courses 1-10 min (assume 10 min for calculation)
-const courses30Min = 0; // Amount of courses 11-30 min (assume 30 min for calculation)
-const courses59Min = 0; // Amount of courses 31-59 min (assume 59 min for calculation)
-const courses1HourPlus = 0; // Amount of courses 1 hour+ (assume 3 hours for calculation)
+const totalCourses = 37817; // Total amount of courses in the OpenSesame catalog
+const courses10Min = 12798; // Amount of courses 1-10 min (assume 10 min for calculation)
+const courses30Min = 12478; // Amount of courses 11-30 min (assume 30 min for calculation)
+const courses59Min = 3505; // Amount of courses 31-59 min (assume 59 min for calculation)
+const courses1HourPlus = 9036; // Amount of courses 1 hour+ (assume 3 hours for calculation)
+const tenMin=(10*12798)/60;
+const thirtyMin=(30*12478)/60;
+const fiftyMin=(59*3505)/60;
+const onehr=(180*9036)/60;
 
 // Feel free to add code here for the calculation
 
-const totalHoursOfAllCourses = 0; // Amount of time to view all courses (measured in HOURS). DO NOT HARDCODE!
+const totalHoursOfAllCourses = tenMin+thirtyMin+fiftyMin+onehr; // Amount of time to view all courses (measured in HOURS). DO NOT HARDCODE!
 
 // Only change code ABOVE this line!
 
